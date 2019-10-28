@@ -1,0 +1,14 @@
+Package: CohortPathways
+Type: Package
+Title: Assembles SQL to running Incidence Rate analysis
+Version: 1.0.1
+Author: Vitaly Koulakov
+Maintainer: Vitaly Koulakov <vitaly.koulakov@odysseusinc.com>
+Description: An R package that produces SQL queries for execute Incidence Rate
+License: Apache License 2.0
+Encoding: UTF-8
+VignetteBuilder: knitr
+LazyData: true
+Depends: R (>= 3.2.2), DatabaseConnector(>= 2.2.0), SqlRender(>= 1.6.3), rJava(>= 0.9-10), rlist(>= 0.4.6),
+  purrr(>= 0.3.2), dplyr(>= 0.8.1)
+NeedsCompilation: yes
